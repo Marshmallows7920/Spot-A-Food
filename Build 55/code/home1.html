@@ -7,6 +7,35 @@
 <title>home1</title>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../css/home1.css"/>
 <script id="applicationScript" type="text/javascript" src="../js/home1.js"></script>
+<script>
+	function includeHTML() {
+	  var z, i, elmnt, file, xhttp;
+	  /*loop through a collection of all HTML elements:*/
+	  z = document.getElementsByTagName("*");
+	  for (i = 0; i < z.length; i++) {
+		elmnt = z[i];
+		/*search for elements with a certain atrribute:*/
+		file = elmnt.getAttribute("w3-include-html");
+		if (file) {
+		  /*make an HTTP request using the attribute value as the file name:*/
+		  xhttp = new XMLHttpRequest();
+		  xhttp.onreadystatechange = function() {
+			if (this.readyState == 4) {
+			  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+			  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+			  /*remove the attribute, and call this function once more:*/
+			  elmnt.removeAttribute("w3-include-html");
+			  includeHTML();
+			}
+		  }      
+		  xhttp.open("GET", file, true);
+		  xhttp.send();
+		  /*exit the function:*/
+		  return;
+		}
+	  }
+	};
+	</script>
 </head>
 <body>
 <div id="home1">
@@ -21,6 +50,140 @@
 	<div id="search">
 		<span>search</span>
 	</div>
+	<div id= "historyoverlay" onclick="historyoff()"> 
+		
+		
+
+
+		<div id="history1" onclick="application.goBack()">
+			<svg class="Rectangle_30">
+				<rect id="Rectangle_30" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
+				</rect>
+			</svg>
+			<svg class="Rectangle_32">
+				<rect id="Rectangle_32" rx="84" ry="84" x="0" y="0" width="1516" height="928">
+				</rect>
+			</svg>
+			<div id="Your_Order_History">
+				<span>Your Order History</span>
+			</div>
+			<div style="position:absolute;width:1466px;height:250px;left:227px;top:255px;overflow:visible;" id="Group_9">
+				<div style="position:absolute;width:370px;height:250px;left:0px;top:0px;overflow:visible;" id="Group_5">
+					<svg class="Rectangle_33">
+						<rect id="Rectangle_33" rx="20" ry="20" x="0" y="0" width="370" height="250">
+						</rect>
+					</svg>
+					<div id="Placeholder">
+						<span>Placeholder</span>
+					</div>
+				</div>
+				<div style="position:absolute;width:192px;height:80px;left:487px;top:86px;overflow:visible;" id="Group_4">
+					<svg class="Rectangle_34">
+						<rect id="Rectangle_34" rx="18" ry="18" x="0" y="0" width="192" height="80">
+						</rect>
+					</svg>
+					<div id="Order_">
+						<span>Order </span>
+					</div>
+				</div>
+				<div style="position:absolute;width:186px;height:225px;left:797px;top:0px;overflow:visible;" id="Group_6">
+					<div id="Macros">
+						<span>Macros</span>
+					</div>
+					<div id="Carbs_52g_Protein_25g_Calories">
+						<span>Carbs: 52g<br/>Protein: 25g<br/>Calories: 500<br/>Fat: 15g</span>
+					</div>
+				</div>
+				<div style="position:absolute;width:92px;height:149px;left:1076px;top:0px;overflow:visible;" id="Group_7">
+					<div id="Price">
+						<span>Price</span>
+					</div>
+					<div id="ID1496">
+						<span>$14.96</span>
+					</div>
+				</div>
+				<div style="position:absolute;width:196px;height:149px;left:1270px;top:0px;overflow:visible;" id="Group_8">
+					<div id="Date_Ordered">
+						<span>Date Ordered</span>
+					</div>
+					<div id="ID14012020">
+						<span>14/01/2020</span>
+					</div>
+				</div>
+			</div>
+			<div style="position:absolute;width:1466px;height:250px;left:227px;top:551px;overflow:visible;" id="Group_10">
+				<div style="position:absolute;width:370px;height:250px;left:0px;top:0px;overflow:visible;" id="Group_5_bm">
+					<svg class="Rectangle_33_bn">
+						<rect id="Rectangle_33_bn" rx="20" ry="20" x="0" y="0" width="370" height="250">
+						</rect>
+					</svg>
+					<div id="Placeholder_bo">
+						<span>Placeholder</span>
+					</div>
+				</div>
+				<div style="position:absolute;width:192px;height:80px;left:487px;top:86px;overflow:visible;" id="Group_4_bp">
+					<svg class="Rectangle_34_bq">
+						<rect id="Rectangle_34_bq" rx="18" ry="18" x="0" y="0" width="192" height="80">
+						</rect>
+					</svg>
+					<div id="Order__br">
+						<span>Order </span>
+					</div>
+				</div>
+				<div style="position:absolute;width:186px;height:225px;left:797px;top:0px;overflow:visible;" id="Group_6_bs">
+					<div id="Macros_bt">
+						<span>Macros</span>
+					</div>
+					<div id="Carbs_52g_Protein_25g_Calories_bu">
+						<span>Carbs: 52g<br/>Protein: 25g<br/>Calories: 500<br/>Fat: 15g</span>
+					</div>
+				</div>
+				<div style="position:absolute;width:92px;height:149px;left:1076px;top:0px;overflow:visible;" id="Group_7_bv">
+					<div id="Price_bw">
+						<span>Price</span>
+					</div>
+					<div id="ID1496_bx">
+						<span>$14.96</span>
+					</div>
+				</div>
+				<div style="position:absolute;width:196px;height:149px;left:1270px;top:0px;overflow:visible;" id="Group_8_by">
+					<div id="Date_Ordered_bz">
+						<span>Date Ordered</span>
+					</div>
+					<div id="ID14012020_b">
+						<span>14/01/2020</span>
+					</div>
+				</div>
+			</div>
+			<svg class="Line_15" viewBox="0 0 1392 1">
+				<path id="Line_15" d="M 0 0 L 1392 0">
+				</path>
+			</svg>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	<script>
+		function historyon() {
+		  document.getElementById("historyoverlay").style.display = "block";
+		}
+		
+		function historyoff() {
+		  document.getElementById("historyoverlay").style.display = "none";
+		}
+	</script>
+
+<button onclick="historyon()">
 	<div style="position:absolute;width:148px;height:84px;left:1461px;top:79px;overflow:visible;" id="Component_41__1" class="Component_41___1">
 		<svg class="Rectangle_2">
 			<rect onclick="application.showOverlay(event,'history1',0,0)" id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="148" height="84">
@@ -30,6 +193,8 @@
 			<span>History</span>
 		</div>
 	</div>
+</button>
+
 	<svg class="Rectangle_5">
 		<rect onclick="application.showOverlay(event,'user',0,1)" id="Rectangle_5" rx="0" ry="0" x="0" y="0" width="148" height="84">
 		</rect>
@@ -141,5 +306,8 @@
 	<img style="position:absolute;width:125px;height:128px;left:32px;top:60px;overflow:visible;" id="frame10" src="../images/frame10.png" srcset="../images/frame10.png 1x">
 		
 </div>
+<script>
+	includeHTML();
+	</script>
 </body>
 </html>
