@@ -16,14 +16,75 @@
 	<div id="Special_Instructions">
 		<span>Special Instructions</span>
 	</div>
+
+
+
+
+
+
+
+	<div id= "orderoverlay" onclick="orderoff()">
+
+		<div id="success" onclick="application.goBack()">
+			<svg class="Rectangle_69">
+				<rect id="Rectangle_69" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
+				</rect>
+			</svg>
+			<svg class="Rectangle_70">
+				<rect id="Rectangle_70" rx="90" ry="90" x="0" y="0" width="888" height="492">
+				</rect>
+			</svg>
+			<div id="Success_">
+				<span>Success!</span>
+			</div>
+			<div id="Your_order_has_been_place_and_">
+				<span>Your order has been place<br/>and will arrive in 20 minutes</span>
+			</div>
+			<div style="position:absolute;width:362px;height:98px;left:779px;top:633px;overflow:visible;" id="Component_30__1" class="Component_30___1">
+				<svg class="Rectangle_71">
+					<rect onclick="application.goToTargetView(event)" id="Rectangle_71" rx="49" ry="49" x="0" y="0" width="362" height="98">
+					</rect>
+				</svg>
+				<a href="home2.html">
+				<div id="Back_to_Home">
+					<span>Back to Home</span>
+				</div>
+				</a>
+			</div>
+		</div>
+	
+
+	</div>
+
+	<script>
+		function orderon() {
+		  document.getElementById("orderoverlay").style.display = "block";
+		}
+		
+		function orderoff() {
+		  document.getElementById("orderoverlay").style.display = "none";
+		}
+	</script>
+
+
+
+
+
 	<div style="position:absolute;width:472px;height:143px;left:724px;top:875px;overflow:visible;" id="Component_47__1" class="Component_47___1">
+		
+		<button onclick="orderon()">
 		<svg class="Rectangle_3">
 			<rect id="Rectangle_3" rx="0" ry="0" x="0" y="0" width="472" height="143">
 			</rect>
 		</svg>
+		</button>
+
+
+		<button onclick="orderon()">
 		<div id="Order_Now">
 			<span>Order Now</span>
 		</div>
+		</button>
 	</div>
 	<svg class="Line_1" viewBox="0 0 1 1080">
 		<path id="Line_1" d="M 0 0 L 0 1080">

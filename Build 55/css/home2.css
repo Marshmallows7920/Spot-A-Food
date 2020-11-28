@@ -112,7 +112,7 @@
 	font-size: 47px;
 	color: rgba(112,112,112,1);
 }
-#Component_41__2 {
+#Component_41__1 {
 	position: absolute;
 	width: 148px;
 	height: 84px;
@@ -171,22 +171,26 @@
 	height: 84px;
 	left: 1648px;
 	top: 79px;
+	cursor: pointer;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: user.html;
 }
-# {
+#User{
 	left: 1689px;
 	top: 89px;
 	position: absolute;
 	overflow: visible;
-	width: 67px;
+	width: 95px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Font Awesome 5 Free;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 66px;
+	font-size: 28px;
 	color: rgba(112,112,112,1);
 }
-#Component_34__2 {
+#Component_34__1 {
 	position: absolute;
 	width: 565px;
 	height: 175px;
@@ -229,7 +233,7 @@
 	font-size: 66px;
 	color: rgba(112,112,112,1);
 }
-#Component_35__2 {
+#Component_35__1 {
 	position: absolute;
 	width: 565px;
 	height: 175px;
@@ -286,7 +290,7 @@
 	font-size: 78px;
 	color: rgba(112,112,112,1);
 }
-#Component_36__2 {
+#Component_36__1 {
 	position: absolute;
 	width: 300px;
 	height: 300px;
@@ -306,7 +310,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Ellipse_1 {
+#Ellipse_1c {
 	fill: rgba(7,233,7,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
@@ -319,7 +323,7 @@
 	--web-action-target: green1.html;
 	cursor: pointer;
 }
-.Ellipse_1 {
+.Ellipse_1c {
 	position: absolute;
 	overflow: visible;
 	width: 269px;
@@ -335,7 +339,7 @@
 	top: 37.118px;
 	overflow: visible;
 }
-#Component_37__2 {
+#Component_37__1 {
 	position: absolute;
 	width: 310px;
 	height: 298px;
@@ -385,7 +389,7 @@
 	--web-action-target: red1.html;
 	cursor: pointer;
 }
-#Component_38__2 {
+#Component_38__1 {
 	position: absolute;
 	width: 286px;
 	height: 297px;
@@ -467,7 +471,7 @@
 	top: 522px;
 	overflow: visible;
 }
-#Component_39__2 {
+#Component_39__1 {
 	position: absolute;
 	width: 286px;
 	height: 300px;
@@ -517,7 +521,7 @@
 	top: 78px;
 	overflow: visible;
 }
-#Component_40__2 {
+#Component_40__1 {
 	position: absolute;
 	width: 282px;
 	height: 299px;
@@ -575,11 +579,1588 @@
 	top: 522px;
 	overflow: visible;
 }
+#Rectangle_11 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	height: 123px;
+	left: 32px;
+	top: 60px;
+}
 #frame10 {
 	position: absolute;
-	width: 142px;
-	height: 145px;
-	left: 23px;
-	top: 35px;
+	width: 125px;
+	height: 128px;
+	left: 32px;
+	top: 60px;
 	overflow: visible;
+}
+
+
+
+
+
+
+
+#history2 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: history2;
+	--web-view-id: history2;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+#Component_27__1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: -4px;
+	overflow: visible;
+}
+#Rectangle_30 {
+	opacity: 0.8;
+	fill: rgba(117,117,117,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_30 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_32 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_32 {
+	position: absolute;
+	overflow: visible;
+	width: 1516px;
+	height: 928px;
+	left: 202px;
+	top: 80px;
+}
+#Your_Order_History {
+	left: 658px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 581px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 99px;
+	color: rgba(0,0,0,1);
+}
+#Group_9 {
+	position: absolute;
+	width: 1466px;
+	height: 250px;
+	left: 227px;
+	top: 259px;
+	overflow: visible;
+}
+#Group_5 {
+	position: absolute;
+	width: 370px;
+	height: 250px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_33 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_33 {
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	height: 250px;
+	left: 0px;
+	top: 0px;
+}
+#Placeholder {
+	left: 94px;
+	top: 100px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Group_4 {
+	position: absolute;
+	width: 192px;
+	height: 80px;
+	left: 487px;
+	top: 86px;
+	overflow: visible;
+}
+#Rectangle_34 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_34 {
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+#Order_ {
+	left: 45px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Group_6 {
+	position: absolute;
+	width: 186px;
+	height: 225px;
+	left: 797px;
+	top: 0px;
+	overflow: visible;
+}
+#Macros {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+	text-decoration: underline;
+}
+#Carbs_52g_Protein_25g_Calories {
+	left: 0px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 47px;
+	color: rgba(0,0,0,1);
+}
+#Group_7 {
+	position: absolute;
+	width: 83px;
+	height: 149px;
+	left: 1076px;
+	top: 0px;
+	overflow: visible;
+}
+#Price {
+	left: 10px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 47px;
+	color: rgba(0,0,0,1);
+	text-decoration: underline;
+}
+#ID1170 {
+	left: 0px;
+	top: 102px;
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 47px;
+	color: rgba(0,0,0,1);
+}
+#Group_8 {
+	position: absolute;
+	width: 196px;
+	height: 149px;
+	left: 1270px;
+	top: 0px;
+	overflow: visible;
+}
+#Date_Ordered {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 47px;
+	color: rgba(0,0,0,1);
+	text-decoration: underline;
+}
+#ID27112020 {
+	left: 0px;
+	top: 102px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 47px;
+	color: rgba(0,0,0,1);
+}
+#Line_15 {
+	opacity: 0.4;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_15 {
+	overflow: visible;
+	position: absolute;
+	width: 1392px;
+	height: 1px;
+	left: 263.5px;
+	top: 533.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Image_11 {
+	position: absolute;
+	width: 69px;
+	height: 59px;
+	left: 926px;
+	top: 942px;
+	overflow: visible;
+}
+
+
+#useroverlay {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+
+
+#user {
+	position: absolute;
+	width: 1920px;
+	height: 1079px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: user;
+	--web-view-id: user;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_26 {
+	opacity: 0.8;
+	fill: rgba(99,99,99,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_26 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1079px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_27 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_27 {
+	position: absolute;
+	overflow: visible;
+	width: 1425px;
+	height: 885px;
+	left: 248px;
+	top: 98px;
+}
+#Group_2 {
+	position: absolute;
+	width: 367px;
+	height: 309px;
+	left: 777px;
+	top: 128px;
+	overflow: visible;
+}
+#Ellipse_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 367px;
+	height: 309px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-person {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-person {
+	overflow: visible;
+	position: absolute;
+	width: 245.333px;
+	height: 224px;
+	left: 60.333px;
+	top: 43px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Users_Name {
+	left: 707px;
+	top: 472px;
+	position: absolute;
+	overflow: visible;
+	width: 507px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 136px;
+	color: rgba(0,0,0,1);
+}
+#Component_42__1 {
+	position: absolute;
+	width: 109px;
+	height: 51px;
+	left: 1499px;
+	top: 128px;
+	overflow: visible;
+}
+#Logout {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: login.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,136,255,1);
+}
+#JohnDoegmailcom {
+	left: 489px;
+	top: 648px;
+	position: absolute;
+	overflow: visible;
+	width: 338px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#ID123_Test_Street {
+	left: 1152px;
+	top: 648px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Group_3 {
+	position: absolute;
+	width: 1064.5px;
+	height: 102px;
+	left: 489px;
+	top: 803px;
+	overflow: visible;
+}
+#Average_Macros_Per_Meal {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Protein {
+	left: 653px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Carbs {
+	left: 839px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Calories {
+	left: 455px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#fat {
+	left: 1003px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Line_11 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_11 {
+	overflow: visible;
+	position: absolute;
+	width: 129px;
+	height: 1px;
+	left: 452.5px;
+	top: 51.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_12 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_12 {
+	overflow: visible;
+	position: absolute;
+	width: 115px;
+	height: 1px;
+	left: 652.5px;
+	top: 51.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_13 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_13 {
+	overflow: visible;
+	position: absolute;
+	width: 92px;
+	height: 1px;
+	left: 839.5px;
+	top: 51.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_14 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_14 {
+	overflow: visible;
+	position: absolute;
+	width: 56px;
+	height: 1px;
+	left: 1008.5px;
+	top: 51.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID500 {
+	left: 488px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#ID25g {
+	left: 683px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#ID52g {
+	left: 859px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#ID15g {
+	left: 1008px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+
+
+
+#inputoverlay {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+
+#input {
+	position: absolute;
+	width: 1920px;
+	height: 2379px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: input;
+	--web-view-id: input;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+#Rectangle_28 {
+	opacity: 0.9;
+	fill: rgba(103,103,103,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_28 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 2379px;
+	left: 1px;
+	top: 0px;
+}
+#Rectangle_1i {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1i {
+	position: absolute;
+	overflow: visible;
+	width: 1574px;
+	height: 888px;
+	left: 219px;
+	top: 157px;
+}
+#Mask_Group_2 {
+	position: absolute;
+	width: 412px;
+	height: 387px;
+	left: 295px;
+	top: 344px;
+	overflow: visible;
+}
+#Insert_Macronutrients {
+	left: 330px;
+	top: 668px;
+	position: absolute;
+	overflow: visible;
+	width: 343px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Select_Your_Allergies {
+	left: 330px;
+	top: 238px;
+	position: absolute;
+	overflow: visible;
+	width: 311px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Food_Restrictions {
+	left: 1288px;
+	top: 238px;
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Component_5__1 {
+	position: absolute;
+	width: 84px;
+	height: 98px;
+	left: 283px;
+	top: 757px;
+	overflow: visible;
+}
+#Group_1 {
+	position: absolute;
+	width: 84px;
+	height: 68px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_10 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	height: 68px;
+	left: 0px;
+	top: 0px;
+}
+#ID0_ {
+	left: 32px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Component_6__1 {
+	position: absolute;
+	width: 84px;
+	height: 68px;
+	left: 402px;
+	top: 757px;
+	overflow: visible;
+}
+#Rectangle_13 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	height: 68px;
+	left: 0px;
+	top: 0px;
+}
+#ID0 {
+	left: 32px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Component_7__1 {
+	position: absolute;
+	width: 84px;
+	height: 68px;
+	left: 521px;
+	top: 757px;
+	overflow: visible;
+}
+#Rectangle_12 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	height: 68px;
+	left: 0px;
+	top: 0px;
+}
+#ID0_bh {
+	left: 32px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Component_8__1 {
+	position: absolute;
+	width: 84px;
+	height: 68px;
+	left: 640px;
+	top: 757px;
+	overflow: visible;
+}
+#Rectangle_11i {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_11i {
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	height: 68px;
+	left: 0px;
+	top: 0px;
+}
+#ID0_bk {
+	left: 30px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Any_Preferences {
+	left: 1288px;
+	top: 668px;
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Component_9__1 {
+	position: absolute;
+	width: 405px;
+	height: 396px;
+	left: 1219px;
+	top: 459px;
+	overflow: visible;
+}
+#Rectangle_15 {
+	opacity: 0;
+	fill: rgba(246,246,246,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 405px;
+	height: 307px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_14 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 405px;
+	height: 115px;
+	left: 0px;
+	top: 281px;
+}
+#Chicken {
+	left: 26px;
+	top: 315px;
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Icon_awesome-arrow-alt-circle- {
+	fill: rgba(0,0,0,1);
+}
+.Icon_awesome-arrow-alt-circle- {
+	overflow: visible;
+	position: absolute;
+	width: 58.81px;
+	height: 66.44px;
+	left: 337.988px;
+	top: 307.063px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Chicken_br {
+	opacity: 0;
+	left: 26px;
+	top: 73px;
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Chicken_bs {
+	opacity: 0;
+	left: 26px;
+	top: 180px;
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,0,0,1);
+}
+#Line_9 {
+	opacity: 0;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_9 {
+	overflow: visible;
+	position: absolute;
+	width: 222px;
+	height: 1px;
+	left: 18.5px;
+	top: 124.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_10 {
+	opacity: 0;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_10 {
+	overflow: visible;
+	position: absolute;
+	width: 222px;
+	height: 1px;
+	left: 18.5px;
+	top: 234.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Mask_Group_3 {
+	position: absolute;
+	width: 448px;
+	height: 445px;
+	left: 1205px;
+	top: 334px;
+	overflow: visible;
+}
+#Component_31__1 {
+	position: absolute;
+	width: 467px;
+	height: 127px;
+	left: 727px;
+	top: 891px;
+	overflow: visible;
+}
+#Rectangle_16 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16 {
+	position: absolute;
+	overflow: visible;
+	width: 467px;
+	height: 127px;
+	left: 0px;
+	top: 0px;
+}
+#Generate_Suggestions {
+	left: 44px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 379px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 58px;
+	color: rgba(0,0,0,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#suggestoverlay {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+
+
+#suggestionso {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: suggestions;
+	--web-view-id: suggestions;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_25 {
+	opacity: 0.3;
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_25 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_24 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_24 {
+	position: absolute;
+	overflow: visible;
+	width: 1266px;
+	height: 939px;
+	left: 327px;
+	top: 94px;
+}
+#Rectangle_23 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_23 {
+	filter: drop-shadow(0px 8px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1144px;
+	height: 802px;
+	left: 388px;
+	top: 222px;
+}
+#Rectangle_18 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_18 {
+	filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1108px;
+	height: 240px;
+	left: 416px;
+	top: 244px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: green1.html;
+	cursor: pointer;
+}
+#Here_are_our_choices_for_you {
+	left: 562px;
+	top: 115px;
+	position: absolute;
+	overflow: visible;
+	width: 806px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 95px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_17 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 289px;
+	height: 152px;
+	left: 450px;
+	top: 277px;
+}
+#Place_1 {
+	left: 806px;
+	top: 306px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 94px;
+	color: rgba(0,0,0,1);
+}
+#Calories_370aprox_-_Fat_15g__P {
+	left: 1078px;
+	top: 318px;
+	position: absolute;
+	overflow: visible;
+	width: 397px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_19 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_19 {
+	filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1109px;
+	height: 241px;
+	left: 406px;
+	top: 484px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: green1.html;
+	cursor: pointer;
+}
+#Rectangle_20 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_20 {
+	position: absolute;
+	overflow: visible;
+	width: 288px;
+	height: 152px;
+	left: 441px;
+	top: 517px;
+}
+#Place_2 {
+	left: 793px;
+	top: 546px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 93px;
+	color: rgba(0,0,0,1);
+}
+#Calories_370aprox_-_Fat_15g__P_bd {
+	left: 1068px;
+	top: 559px;
+	position: absolute;
+	overflow: visible;
+	width: 397px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_21 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_21 {
+	filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1109px;
+	height: 240px;
+	left: 406px;
+	top: 737px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: input.html;
+	cursor: pointer;
+}
+#Rectangle_22 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_22 {
+	position: absolute;
+	overflow: visible;
+	width: 288px;
+	height: 151px;
+	left: 441px;
+	top: 770px;
+}
+#Place_3 {
+	left: 793px;
+	top: 799px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 93px;
+	color: rgba(0,0,0,1);
+}
+#Calories_370aprox_-_Fat_15g__P_bh {
+	left: 1068px;
+	top: 815px;
+	position: absolute;
+	overflow: visible;
+	width: 397px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(0,0,0,1);
+}
+
+#historyoverlay {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
 }

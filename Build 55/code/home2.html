@@ -8,6 +8,35 @@
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../css/home2.css"/>
 <script id="applicationScript" type="text/javascript" src="../js/home2.js"></script>
 </head>
+<script>
+	function includeHTML() {
+	  var z, i, elmnt, file, xhttp;
+	  /*loop through a collection of all HTML elements:*/
+	  z = document.getElementsByTagName("*");
+	  for (i = 0; i < z.length; i++) {
+		elmnt = z[i];
+		/*search for elements with a certain atrribute:*/
+		file = elmnt.getAttribute("w3-include-html");
+		if (file) {
+		  /*make an HTTP request using the attribute value as the file name:*/
+		  xhttp = new XMLHttpRequest();
+		  xhttp.onreadystatechange = function() {
+			if (this.readyState == 4) {
+			  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+			  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+			  /*remove the attribute, and call this function once more:*/
+			  elmnt.removeAttribute("w3-include-html");
+			  includeHTML();
+			}
+		  }      
+		  xhttp.open("GET", file, true);
+		  xhttp.send();
+		  /*exit the function:*/
+		  return;
+		}
+	  }
+	};
+	</script>
 <body>
 <div id="home2">
 	<svg class="Rectangle_8">
@@ -21,7 +50,105 @@
 	<div id="search">
 		<span>search</span>
 	</div>
-	<div style="position:absolute;width:148px;height:84px;left:1461px;top:79px;overflow:visible;" id="Component_41__2" class="Component_41___2">
+	<div id="historyoverlay" onclick="historyoff()"> 
+		
+		
+
+
+		<div id="history2" onclick="application.goBack()">
+			<div style="position:absolute;width:1920px;height:1080px;left:0px;top:-4px;overflow:visible;" id="Component_27__1" class="Component_27___1">
+				<svg class="Rectangle_30">
+					<rect id="Rectangle_30" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
+					</rect>
+				</svg>
+				<svg class="Rectangle_32">
+					<rect id="Rectangle_32" rx="84" ry="84" x="0" y="0" width="1516" height="928">
+					</rect>
+				</svg>
+				<div id="Your_Order_History">
+					<span>Your Order History</span>
+				</div>
+				<div style="position:absolute;width:1466px;height:250px;left:227px;top:259px;overflow:visible;" id="Group_9">
+					<div style="position:absolute;width:370px;height:250px;left:0px;top:0px;overflow:visible;" id="Group_5">
+						<svg class="Rectangle_33">
+							<rect id="Rectangle_33" rx="20" ry="20" x="0" y="0" width="370" height="250">
+							</rect>
+						</svg>
+						<div id="Placeholder">
+							<span>Placeholder</span>
+						</div>
+					</div>
+					<div style="position:absolute;width:192px;height:80px;left:487px;top:86px;overflow:visible;" id="Group_4">
+						<a href="checkout1.html">
+						<svg class="Rectangle_34">
+							<rect id="Rectangle_34" rx="18" ry="18" x="0" y="0" width="192" height="80">
+							</rect>
+						</svg>
+					</a>
+
+					<a href="checkout1.html">
+						<div id="Order_">
+							<span>Order </span>
+						</div>
+					</a>
+					</div>
+					<div style="position:absolute;width:186px;height:225px;left:797px;top:0px;overflow:visible;" id="Group_6">
+						<div id="Macros">
+							<span>Macros</span>
+						</div>
+						<div id="Carbs_52g_Protein_25g_Calories">
+							<span>Carbs: 52g<br/>Protein: 25g<br/>Calories: 500<br/>Fat: 15g</span>
+						</div>
+					</div>
+					<div style="position:absolute;width:83px;height:149px;left:1076px;top:0px;overflow:visible;" id="Group_7">
+						<div id="Price">
+							<span>Price</span>
+						</div>
+						<div id="ID1170">
+							<span>$11.70</span>
+						</div>
+					</div>
+					<div style="position:absolute;width:196px;height:149px;left:1270px;top:0px;overflow:visible;" id="Group_8">
+						<div id="Date_Ordered">
+							<span>Date Ordered</span>
+						</div>
+						<div id="ID27112020">
+							<span>27/11/2020</span>
+						</div>
+					</div>
+				</div>
+				<svg class="Line_15" viewBox="0 0 1392 1">
+					<path id="Line_15" d="M 0 0 L 1392 0">
+					</path>
+				</svg>
+				<img style="position:absolute;width:69px;height:59px;left:926px;top:942px;overflow:visible;" id="Image_11" src="../images/Image_11.png" srcset="../images/Image_11.png 1x">
+					
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	<script>
+		function historyon() {
+		  document.getElementById("historyoverlay").style.display = "block";
+		}
+		
+		function historyoff() {
+		  document.getElementById("historyoverlay").style.display = "none";
+		}
+	</script>
+
+<button onclick="historyon()">
+	<div style="position:absolute;width:148px;height:84px;left:1461px;top:79px;overflow:visible;" id="Component_41__1" class="Component_41___1">
 		<svg class="Rectangle_2">
 			<rect onclick="application.showOverlay(event,'history1',0,0)" id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="148" height="84">
 			</rect>
@@ -30,14 +157,276 @@
 			<span>History</span>
 		</div>
 	</div>
-	<svg class="Rectangle_5">
-		<rect id="Rectangle_5" rx="0" ry="0" x="0" y="0" width="148" height="84">
+</button>
+
+
+
+<div id= "useroverlay" onclick="useroff()">
+
+
+<div id="user" onclick="application.goBack()">
+	<svg class="Rectangle_26">
+		<rect id="Rectangle_26" rx="0" ry="0" x="0" y="0" width="1920" height="1079">
 		</rect>
 	</svg>
-	<div id="">
-		<span></span>
+	<svg class="Rectangle_27">
+		<rect id="Rectangle_27" rx="64" ry="64" x="0" y="0" width="1425" height="885">
+		</rect>
+	</svg>
+	<div style="position:absolute;width:367px;height:309px;left:777px;top:128px;overflow:visible;" id="Group_2">
+		<svg class="Ellipse_1">
+			<ellipse id="Ellipse_1" rx="183.5" ry="154.5" cx="183.5" cy="154.5">
+			</ellipse>
+		</svg>
+		<svg class="Icon_material-person" viewBox="6 6 245.334 224">
+			<path id="Icon_material-person" d="M 128.666748046875 118 C 162.5534515380859 118 190.0001525878906 92.94001007080078 190.0001525878906 62 C 190.0001525878906 31.05999565124512 162.5534515380859 6 128.666748046875 6 C 94.78005218505859 6 67.33338165283203 31.05999565124512 67.33338165283203 62 C 67.33338165283203 92.94001007080078 94.78005218505859 118 128.666748046875 118 Z M 128.666748046875 146.0000152587891 C 87.72670745849609 146.0000152587891 6.000000476837158 164.760009765625 6.000000476837158 202.0000152587891 L 6.000000476837158 230.0000152587891 L 251.3335113525391 230.0000152587891 L 251.3335113525391 202.0000152587891 C 251.3335113525391 164.760009765625 169.6067962646484 146.0000152587891 128.666748046875 146.0000152587891 Z">
+			</path>
+		</svg>
 	</div>
-	<div style="position:absolute;width:565px;height:175px;left:333px;top:225px;overflow:visible;" id="Component_34__2" class="Component_34___2">
+	<div id="Users_Name">
+		<span>Users Name</span>
+	</div>
+	<div style="position:absolute;width:109px;height:51px;left:1499px;top:128px;overflow:visible;" id="Component_42__1" class="Component_42___1">
+		<div onclick="application.goToTargetView(event)" id="Logout">
+			<span>Logout</span>
+		</div>
+	</div>
+	<div id="JohnDoegmailcom">
+		<span>JohnDoe@gmail.com</span>
+	</div>
+	<div id="ID123_Test_Street">
+		<span>123 Test Street</span>
+	</div>
+	<div style="position:absolute;width:1064.5px;height:102px;left:489px;top:803px;overflow:visible;" id="Group_3">
+		<div id="Average_Macros_Per_Meal">
+			<span>Average Macros Per Meal:</span>
+		</div>
+		<div id="Protein">
+			<span>Protein</span>
+		</div>
+		<div id="Carbs">
+			<span>Carbs</span>
+		</div>
+		<div id="Calories">
+			<span>Calories</span>
+		</div>
+		<div id="fat">
+			<span>fat</span>
+		</div>
+		<svg class="Line_11" viewBox="0 0 129 1">
+			<path id="Line_11" d="M 0 0 L 129 0">
+			</path>
+		</svg>
+		<svg class="Line_12" viewBox="0 0 115 1">
+			<path id="Line_12" d="M 0 0 L 115 0">
+			</path>
+		</svg>
+		<svg class="Line_13" viewBox="0 0 92 1">
+			<path id="Line_13" d="M 0 0 L 92 0">
+			</path>
+		</svg>
+		<svg class="Line_14" viewBox="0 0 56 1">
+			<path id="Line_14" d="M 0 0 L 56 0">
+			</path>
+		</svg>
+		<div id="ID500">
+			<span>500</span>
+		</div>
+		<div id="ID25g">
+			<span>25g</span>
+		</div>
+		<div id="ID52g">
+			<span>52g</span>
+		</div>
+		<div id="ID15g">
+			<span>15g</span>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+	function useron() {
+	  document.getElementById("useroverlay").style.display = "block";
+	}
+	
+	function useroff() {
+	  document.getElementById("useroverlay").style.display = "none";
+	}
+</script>
+
+
+<button onclick="useron()">
+	<svg class="Rectangle_5">
+		<rect onclick="application.showOverlay(event,'user',0,1)" id="Rectangle_5" rx="0" ry="0" x="0" y="0" width="148" height="84">
+		</rect>
+	</svg>
+	<div id="User">
+		<span>user</span>
+	</div>
+</button>
+
+
+<div id= "inputoverlay" onclick="inputoff()">
+
+
+	<div id="input" onclick="application.goBack()">
+		<svg class="Rectangle_28">
+			<rect id="Rectangle_28" rx="0" ry="0" x="0" y="0" width="1920" height="2379">
+			</rect>
+		</svg>
+		<svg class="Rectangle_1i">
+			<rect id="Rectangle_1i" rx="0" ry="0" x="0" y="0" width="1574" height="888">
+			</rect>
+		</svg>
+		<img style="position:absolute;width:412px;height:387px;left:295px;top:344px;overflow:visible;" id="Mask_Group_2" src="../images/Mask_Group_2.png" srcset="../images/Mask_Group_2.png 1x">
+			
+		</svg>
+		<div id="Insert_Macronutrients">
+			<span>Insert Macronutrients</span>
+		</div>
+		<div id="Select_Your_Allergies">
+			<span>Select Your Allergies</span>
+		</div>
+		<div id="Food_Restrictions">
+			<span>Food Restrictions</span>
+		</div>
+		<div style="position:absolute;width:84px;height:98px;left:283px;top:757px;overflow:visible;" id="Component_5__1" class="Component_5___1">
+			<div style="position:absolute;width:84px;height:68px;left:0px;top:0px;overflow:visible;" id="Group_1">
+				<svg class="Rectangle_10">
+					<rect id="Rectangle_10" rx="18" ry="18" x="0" y="0" width="84" height="68">
+					</rect>
+				</svg>
+			</div>
+			<div id="ID0_">
+				<span>0</span><br>
+			</div>
+		</div>
+		<div style="position:absolute;width:84px;height:68px;left:402px;top:757px;overflow:visible;" id="Component_6__1" class="Component_6___1">
+			<svg class="Rectangle_13">
+				<rect id="Rectangle_13" rx="18" ry="18" x="0" y="0" width="84" height="68">
+				</rect>
+			</svg>
+			<div id="ID0">
+				<span>0</span>
+			</div>
+		</div>
+		<div style="position:absolute;width:84px;height:68px;left:521px;top:757px;overflow:visible;" id="Component_7__1" class="Component_7___1">
+			<svg class="Rectangle_12">
+				<rect id="Rectangle_12" rx="18" ry="18" x="0" y="0" width="84" height="68">
+				</rect>
+			</svg>
+			<div id="ID0_bh">
+				<span>0</span>
+			</div>
+		</div>
+		<div style="position:absolute;width:84px;height:68px;left:640px;top:757px;overflow:visible;" id="Component_8__1" class="Component_8___1">
+			<svg class="Rectangle_11i">
+				<rect id="Rectangle_11i" rx="18" ry="18" x="0" y="0" width="84" height="68">
+				</rect>
+			</svg>
+			<div id="ID0_bk">
+				<span>0</span>
+			</div>
+		</div>
+		<div id="Any_Preferences">
+			<span>Any Preferences?</span>
+		</div>
+		<div style="position:absolute;width:405px;height:396px;left:1219px;top:459px;overflow:visible;" id="Component_9__1" class="Component_9___1">
+			<svg class="Rectangle_15">
+				<rect id="Rectangle_15" rx="36" ry="36" x="0" y="0" width="405" height="307">
+				</rect>
+			</svg>
+			<svg class="Rectangle_14">
+				<rect id="Rectangle_14" rx="36" ry="36" x="0" y="0" width="405" height="115">
+				</rect>
+			</svg>
+			<div id="Chicken">
+				<span>Chicken</span>
+			</div>
+			<svg class="Icon_awesome-arrow-alt-circle-" viewBox="0.563 0.563 58.81 66.44">
+				<path id="Icon_awesome-arrow-alt-circle-" d="M 59.37250137329102 33.78250503540039 C 59.37250137329102 52.13387298583984 46.21139526367188 67.00250244140625 29.96750068664551 67.00250244140625 C 13.72360992431641 67.00250244140625 0.5625000596046448 52.13387298583984 0.5625000596046448 33.78250503540039 C 0.5625000596046448 15.43112850189209 13.72360992431641 0.5625000596046448 29.96750068664551 0.5625000596046448 C 46.21139526367188 0.5625000596046448 59.37250137329102 15.43112850189209 59.37250137329102 33.78250503540039 Z M 24.75048637390137 18.24411201477051 L 24.75048637390137 33.78250503540039 L 16.34397506713867 33.78250503540039 C 15.07529163360596 33.78250503540039 14.43502235412598 35.52387237548828 15.33614349365234 36.52851486206055 L 28.95966911315918 51.83917999267578 C 29.51694297790527 52.46875381469727 30.40620613098145 52.46875381469727 30.96347999572754 51.83917999267578 L 44.58700561523438 36.52851486206055 C 45.48812866210938 35.51048278808594 44.84786224365234 33.78250503540039 43.57917404174805 33.78250503540039 L 35.18451690673828 33.78250503540039 L 35.18451690673828 18.24411201477051 C 35.18451690673828 17.36003494262695 34.54424667358398 16.63669586181641 33.76169586181641 16.63669586181641 L 26.17330741882324 16.63669586181641 C 25.39075469970703 16.63669586181641 24.75048637390137 17.36003494262695 24.75048637390137 18.24411201477051 Z">
+				</path>
+			</svg>
+			<div id="Chicken_br">
+				<span>Chicken</span>
+			</div>
+			<div id="Chicken_bs">
+				<span>Chicken</span>
+			</div>
+			<svg class="Line_9" viewBox="0 0 222 1">
+				<path id="Line_9" d="M 0 0 L 222 0">
+				</path>
+			</svg>
+			<svg class="Line_10" viewBox="0 0 222 1">
+				<path id="Line_10" d="M 0 0 L 222 0">
+				</path>
+			</svg>
+		</div>
+		<img style="position:absolute;width:448px;height:445px;left:1205px;top:334px;overflow:visible;" id="Mask_Group_3" src="../images/Mask_Group_3.png" srcset="../images/Mask_Group_3.png 1x">
+			
+		</svg>
+		<div style="position:absolute;width:467px;height:127px;left:727px;top:891px;overflow:visible;" id="Component_31__1" class="Component_31___1">
+			<svg class="Rectangle_16">
+				<rect id="Rectangle_16" rx="63.5" ry="63.5" x="0" y="0" width="467" height="127">
+				</rect>
+			</svg>
+			<a href="suggestions.html">
+			<div id="Generate_Suggestions">
+				<span>Generate Suggestions</span>
+			</div>
+		</a>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+	function inputon() {
+	  document.getElementById("inputoverlay").style.display = "block";
+	}
+	
+	function inputoff() {
+	  document.getElementById("inputoverlay").style.display = "none";
+	}
+</script>
+
+<button onclick="inputon()">
+	<div style="position:absolute;width:565px;height:175px;left:333px;top:225px;overflow:visible;" id="Component_34__1" class="Component_34___1">
 		<svg class="Rectangle_6">
 			<rect onclick="application.showOverlay(event,'input',0,0)" id="Rectangle_6" rx="0" ry="0" x="0" y="0" width="565" height="175">
 			</rect>
@@ -46,7 +435,114 @@
 			<span>Input Health</span>
 		</div>
 	</div>
-	<div style="position:absolute;width:565px;height:175px;left:1023px;top:225px;overflow:visible;" id="Component_35__2" class="Component_35___2">
+</button>
+
+<div id= "suggestoverlay" onclick="suggestoff()">
+
+
+	<div id="suggestionso" onclick="application.goBack()">
+		<svg class="Rectangle_25">
+			<rect id="Rectangle_25" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
+			</rect>
+		</svg>
+		<svg class="Rectangle_24">
+			<rect id="Rectangle_24" rx="55" ry="55" x="0" y="0" width="1266" height="939">
+			</rect>
+		</svg>
+		<svg class="Rectangle_23">
+			<rect id="Rectangle_23" rx="73" ry="73" x="0" y="0" width="1126" height="784">
+			</rect>
+		</svg>
+		<a href="green1.html">
+		<svg class="Rectangle_18">
+			<rect onclick="application.goToTargetView(event)" id="Rectangle_18" rx="43" ry="43" x="0" y="0" width="1090" height="221">
+			</rect>
+		</svg>
+
+	</a>
+		<div id="Here_are_our_choices_for_you">
+			<span>Here are our choices for you</span>
+		</div>
+		<a href="green1.html">
+		<svg class="Rectangle_17">
+			<rect id="Rectangle_17" rx="0" ry="0" x="0" y="0" width="289" height="152">
+			</rect>
+		</svg>
+	</a>
+		<div id="Place_1">
+			<span>Place 1</span>
+		</div>
+		<div id="Calories_370aprox_-_Fat_15g__P">
+			<span>Calories: 370(aprox) - Fat: 15g <br/>Protein: 35g - Carbohydrates: 45g</span>
+		</div>
+
+		<a href="red1.html">
+		<svg class="Rectangle_19">
+			<rect onclick="application.goToTargetView(event)" id="Rectangle_19" rx="43" ry="43" x="0" y="0" width="1091" height="222">
+			</rect>
+		</svg>
+		</a>
+		<svg class="Rectangle_20">
+			<rect id="Rectangle_20" rx="0" ry="0" x="0" y="0" width="288" height="152">
+			</rect>
+		</svg>
+		<div id="Place_2">
+			<span>Place 2</span>
+		</div>
+		<div id="Calories_370aprox_-_Fat_15g__P_bd">
+			<span>Calories: 370(aprox) - Fat: 15g <br/>Protein: 35g - Carbohydrates: 45g</span>
+		</div>
+		<a href="yellow1.html">
+		<svg class="Rectangle_21">
+			<rect onclick="application.goToTargetView(event)" id="Rectangle_21" rx="43" ry="43" x="0" y="0" width="1091" height="221">
+			</rect>
+		</svg>
+	</a>
+		<svg class="Rectangle_22">
+			<rect id="Rectangle_22" rx="0" ry="0" x="0" y="0" width="288" height="151">
+			</rect>
+		</svg>
+		<div id="Place_3">
+			<span>Place 3</span>
+		</div>
+		<div id="Calories_370aprox_-_Fat_15g__P_bh">
+			<span>Calories: 370(aprox) - Fat: 15g <br/>Protein: 35g - Carbohydrates: 45g</span>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<script>
+	function suggeston() {
+	  document.getElementById("suggestoverlay").style.display = "block";
+	}
+	
+	function suggestoff() {
+	  document.getElementById("suggestoverlay").style.display = "none";
+	}
+</script>
+
+<button onclick="suggeston()">
+	<div style="position:absolute;width:565px;height:175px;left:1023px;top:225px;overflow:visible;" id="Component_35__1" class="Component_35___1">
 		<svg class="Rectangle_7">
 			<rect onclick="application.showOverlay(event,'suggestions',0,0)" id="Rectangle_7" rx="0" ry="0" x="0" y="0" width="565" height="175">
 			</rect>
@@ -55,23 +551,31 @@
 			<span>Suggestions</span>
 		</div>
 	</div>
+</button>
+
+
+
+
+
+
+
 	<div id="Categories">
 		<span>Categories</span>
 	</div>
-	<div style="position:absolute;width:300px;height:300px;left:117px;top:622px;overflow:visible;" id="Component_36__2" class="Component_36___2">
+	<div style="position:absolute;width:300px;height:300px;left:117px;top:622px;overflow:visible;" id="Component_36__1" class="Component_36___1">
 		<svg class="Rectangle_72">
 			<rect id="Rectangle_72" rx="0" ry="0" x="0" y="0" width="300" height="300">
 			</rect>
 		</svg>
-		<a href="green1.html">
-		<svg class="Ellipse_1">
-			<ellipse onclick="application.goToTargetView(event)" id="Ellipse_1" rx="134.5" ry="134.5" cx="134.5" cy="134.5">
+		<svg class="Ellipse_1c">
+			<ellipse id="Ellipse_1c" rx="134.5" ry="134.5" cx="134.5" cy="134.5">
 			</ellipse>
 		</svg>
+		<a href="green1.html">
 		<img style="position:absolute;width:248.837px;height:226.242px;left:19.865px;top:37.118px;overflow:visible;" id="epic-summer-salad-000aded" src="../images/epic-summer-salad-000aded.png" srcset="../images/epic-summer-salad-000aded.png 1x">
 	</a>
 	</div>
-	<div style="position:absolute;width:310px;height:298px;left:433px;top:621px;overflow:visible;" id="Component_37__2" class="Component_37___2">
+	<div style="position:absolute;width:310px;height:298px;left:433px;top:621px;overflow:visible;" id="Component_37__1" class="Component_37___1">
 		<svg class="Rectangle_73">
 			<rect id="Rectangle_73" rx="0" ry="0" x="0" y="0" width="310" height="298">
 			</rect>
@@ -83,7 +587,7 @@
 		<img style="position:absolute;width:247px;height:246px;left:32px;top:28px;overflow:visible;" onclick="application.goToTargetView(event)" id="Image_1" src="../images/Image_1.png" srcset="../images/Image_1.png 1x">
 			
 	</div>
-	<div style="position:absolute;width:286px;height:297px;left:765px;top:622px;overflow:visible;" id="Component_38__2" class="Component_38___2">
+	<div style="position:absolute;width:286px;height:297px;left:765px;top:622px;overflow:visible;" id="Component_38__1" class="Component_38___1">
 		<svg class="Rectangle_74">
 			<rect id="Rectangle_74" rx="0" ry="0" x="0" y="0" width="286" height="297">
 			</rect>
@@ -103,36 +607,45 @@
 		
 	<img style="position:absolute;width:80px;height:77px;left:1184px;top:522px;overflow:visible;" id="Image_6" src="../images/Image_6.png" srcset="../images/Image_6.png 1x">
 		
-	<div style="position:absolute;width:286px;height:300px;left:1075px;top:619px;overflow:visible;" id="Component_39__2" class="Component_39___2">
+	<div style="position:absolute;width:286px;height:300px;left:1075px;top:619px;overflow:visible;" id="Component_39__1" class="Component_39___1">
 		<svg class="Rectangle_75">
 			<rect id="Rectangle_75" rx="0" ry="0" x="0" y="0" width="286" height="300">
 			</rect>
 		</svg>
-		<a href="yellow1.html">
 		<svg class="Ellipse_4">
-			<ellipse onclick="application.goToTargetView(event)" id="Ellipse_4" rx="134.5" ry="134.5" cx="134.5" cy="134.5">
+			<ellipse  id="Ellipse_4" rx="134.5" ry="134.5" cx="134.5" cy="134.5">
 			</ellipse>
 		</svg>
-		<img style="position:absolute;width:244px;height:137px;left:22px;top:78px;overflow:visible;" id="ID7c1096c7-bfd0-4806-a794-1d30" src="../images/ID7c1096c7-bfd0-4806-a794-1d30.png" srcset="../images/ID7c1096c7-bfd0-4806-a794-1d30.png 1x">
+		<a href ="purple1.html">
+		<img style="position:absolute;width:244px;height:137px;left:22px;top:78px;overflow:visible;"  id="ID7c1096c7-bfd0-4806-a794-1d30" src="../images/ID7c1096c7-bfd0-4806-a794-1d30.png" srcset="../images/ID7c1096c7-bfd0-4806-a794-1d30.png 1x">
 	</a>
+			
 	</div>
-	<div style="position:absolute;width:282px;height:299px;left:1395px;top:620px;overflow:visible;" id="Component_40__2" class="Component_40___2">
+	<div style="position:absolute;width:282px;height:299px;left:1395px;top:620px;overflow:visible;" id="Component_40__1" class="Component_40___1">
 		<svg class="Rectangle_76">
 			<rect id="Rectangle_76" rx="0" ry="0" x="0" y="0" width="282" height="299">
 			</rect>
 		</svg>
-		<a href="blue1.html">
 		<svg class="Ellipse_5">
 			<ellipse onclick="application.goToTargetView(event)" id="Ellipse_5" rx="134.5" ry="134.5" cx="134.5" cy="134.5">
 			</ellipse>
 		</svg>
+		<a href ="blue1.html">
 		<img style="position:absolute;width:223.5px;height:223.5px;left:27px;top:38px;overflow:visible;" id="__opt__aboutcom__coeus__resour" src="../images/__opt__aboutcom__coeus__resour.png" srcset="../images/__opt__aboutcom__coeus__resour.png 1x">
 	</a>
 	</div>
 	<img style="position:absolute;width:90px;height:75px;left:1501px;top:522px;overflow:visible;" id="Image_7" src="../images/Image_7.png" srcset="../images/Image_7.png 1x">
 		
-	<img style="position:absolute;width:142px;height:145px;left:23px;top:35px;overflow:visible;" id="frame10" src="../images/frame10.png" srcset="../images/frame10.png 1x">
+	<svg class="Rectangle_11">
+		<rect id="Rectangle_11" rx="0" ry="0" x="0" y="0" width="125" height="123">
+		</rect>
+	</svg>
+	<img style="position:absolute;width:125px;height:128px;left:32px;top:60px;overflow:visible;" id="frame10" src="../images/frame10.png" srcset="../images/frame10.png 1x">
 		
 </div>
+
+<script>
+	includeHTML();
+	</script>
 </body>
 </html>
