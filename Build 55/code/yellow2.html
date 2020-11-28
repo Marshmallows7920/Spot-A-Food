@@ -48,12 +48,72 @@
 		<path id="Line_1" d="M 0 0 L 0 1080">
 		</path>
 	</svg>
+
+
+
+	<div id= "backoverlay" onclick="yellowbackoff()">
+
+		<div id="warning" onclick="application.goBack()">
+			<svg class="Rectangle_79">
+				<rect id="Rectangle_79" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
+				</rect>
+			</svg>
+			<svg class="Rectangle_80">
+				<rect id="Rectangle_80" rx="160" ry="160" x="0" y="0" width="944" height="584">
+				</rect>
+			</svg>
+			<div id="HOLD_UP">
+				<span>HOLD UP</span>
+			</div>
+			<div id="If_you_go_back_your_cart_will_">
+				<span>If you go back, your cart will <br/>be cleared</span>
+			</div>
+			<div style="position:absolute;width:194px;height:83px;left:653px;top:676px;overflow:visible;" id="Component_51__1" class="Component_51___1">
+				<svg class="Rectangle_81">
+					<rect id="Rectangle_81" rx="41.5" ry="41.5" x="0" y="0" width="194" height="83">
+					</rect>
+				</svg>
+				<div id="exit_">
+					<span>exit </span>
+				</div>
+			</div>
+			<div style="position:absolute;width:194px;height:83px;left:1072px;top:676px;overflow:visible;" id="Component_52__1" class="Component_52___1">
+				<svg class="Rectangle_82">
+					<rect id="Rectangle_82" rx="41.5" ry="41.5" x="0" y="0" width="194" height="83">
+					</rect>
+				</svg>
+				<div id="stay">
+					<span>stay</span>
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+
+	<script>
+		function yellowbackon() {
+		  document.getElementById("backoverlay").style.display = "block";
+		}
+		
+		function yellowbackoff() {
+		  document.getElementById("backoverlay").style.display = "none";
+		}
+	</script>
+
+
+	<button onclick="yellowbackon()">
 	<svg class="Rectangle_9">
 		<rect onclick="application.showOverlay(event,'warning',0,0)" id="Rectangle_9" rx="0" ry="0" x="0" y="0" width="122" height="78">
 		</rect>
 	</svg>
+	</button>
+
+	<button onclick="yellowbackon()">
 	<img style="position:absolute;width:63px;height:55px;left:60px;top:37px;overflow:visible;" id="Image_8" src="../images/Image_8.png" srcset="../images/Image_8.png 1x">
-		
+	</button>
+
+
 	<svg class="Line_2" viewBox="0 0 1 1080">
 		<path id="Line_2" d="M 0 0 L 0 1080">
 		</path>

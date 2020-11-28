@@ -700,3 +700,172 @@
 	font-size: 42px;
 	color: rgba(0,0,0,1);
 }
+
+
+
+#backoverlay {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+
+#warning {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: warning;
+	--web-view-id: warning;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+#Rectangle_79 {
+	opacity: 0.6;
+	fill: rgba(170,169,169,1);
+}
+.Rectangle_79 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_80 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_80 {
+	position: absolute;
+	overflow: visible;
+	width: 944px;
+	height: 584px;
+	left: 488px;
+	top: 248px;
+}
+#HOLD_UP {
+	left: 823px;
+	top: 312px;
+	position: absolute;
+	overflow: visible;
+	width: 314px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 66px;
+	color: rgba(0,0,0,1);
+}
+#If_you_go_back_your_cart_will_ {
+	left: 491px;
+	top: 452px;
+	position: absolute;
+	overflow: visible;
+	width: 939px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 66px;
+	color: rgba(0,0,0,1);
+}
+#Component_51__1 {
+	position: absolute;
+	width: 194px;
+	height: 83px;
+	left: 653px;
+	top: 676px;
+	overflow: visible;
+}
+#Rectangle_81 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_81 {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 83px;
+	left: 0px;
+	top: 0px;
+}
+#exit_ {
+	left: 59px;
+	top: 25px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(0,0,0,1);
+}
+#Component_52__1 {
+	position: absolute;
+	width: 194px;
+	height: 83px;
+	left: 1072px;
+	top: 676px;
+	overflow: visible;
+}
+#Rectangle_82 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_82 {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 83px;
+	left: 0px;
+	top: 0px;
+}
+#stay {
+	left: 61px;
+	top: 19px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(0,0,0,1);
+}
