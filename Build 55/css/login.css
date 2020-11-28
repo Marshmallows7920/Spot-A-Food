@@ -1,0 +1,229 @@
+.mediaViewInfo {
+	--web-view-name: login;
+	--web-view-id: login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: login;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#login {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: login;
+	--web-view-id: login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_13 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 764px;
+	height: 154px;
+	left: 534px;
+	top: 462px;
+}
+#Rectangle_14 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 764px;
+	height: 154px;
+	left: 535px;
+	top: 668px;
+}
+#Email_bb {
+	left: 319px;
+	top: 507px;
+	position: absolute;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 66px;
+	color: rgba(112,112,112,1);
+}
+#Password {
+	left: 178px;
+	top: 679px;
+	position: absolute;
+	overflow: visible;
+	width: 310px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 66px;
+	color: rgba(112,112,112,1);
+}
+#Component_32__1 {
+	position: absolute;
+	width: 257px;
+	height: 75px;
+	left: 572px;
+	top: 892px;
+	overflow: visible;
+}
+#Rectangle_15 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 75px;
+	left: 0px;
+	top: 0px;
+}
+#Login_ {
+	left: 69px;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(112,112,112,1);
+}
+#Rectangle_16 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16 {
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	height: 132px;
+	left: 1347px;
+	top: 679px;
+}
+# {
+	left: 1398px;
+	top: 701px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 66px;
+	color: rgba(112,112,112,1);
+}
+#Email_bb {
+	left: 319px;
+	top: 507px;
+	position: absolute;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 66px;
+	color: rgba(112,112,112,1);
+}
+#Component_33__1 {
+	position: absolute;
+	width: 257px;
+	height: 75px;
+	left: 1005px;
+	top: 892px;
+	overflow: visible;
+}
+#Rectangle_68 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_68 {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 75px;
+	left: 0px;
+	top: 0px;
+}
+#Guest_ {
+	left: 75px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	color: rgba(112,112,112,1);
+}
+#frame10 {
+	position: absolute;
+	width: 346px;
+	height: 354px;
+	left: 743px;
+	top: 56px;
+	overflow: visible;
+}

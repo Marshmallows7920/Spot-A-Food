@@ -1,0 +1,146 @@
+.mediaViewInfo {
+	--web-view-name: success;
+	--web-view-id: success;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: success;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#success {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: success;
+	--web-view-id: success;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_69 {
+	opacity: 0.8;
+	fill: rgba(162,162,162,1);
+}
+.Rectangle_69 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_70 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_70 {
+	position: absolute;
+	overflow: visible;
+	width: 888px;
+	height: 492px;
+	left: 516px;
+	top: 294px;
+}
+#Success_ {
+	left: 810px;
+	top: 294px;
+	position: absolute;
+	overflow: visible;
+	width: 333px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 82px;
+	color: rgba(112,112,112,1);
+}
+#Your_order_has_been_place_and_ {
+	left: 673px;
+	top: 470px;
+	position: absolute;
+	overflow: visible;
+	width: 575px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(112,112,112,1);
+}
+#Component_30__1 {
+	position: absolute;
+	width: 362px;
+	height: 98px;
+	left: 779px;
+	top: 633px;
+	overflow: visible;
+}
+#Rectangle_71 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_71 {
+	position: absolute;
+	overflow: visible;
+	width: 362px;
+	height: 98px;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: home2.html;
+	cursor: pointer;
+}
+#Back_to_Home {
+	left: 37px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 289px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(112,112,112,1);
+}

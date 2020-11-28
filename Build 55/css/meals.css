@@ -1,0 +1,693 @@
+.mediaViewInfo {
+	--web-view-name: meals;
+	--web-view-id: meals;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: meals;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#meals {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: meals;
+	--web-view-id: meals;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_43 {
+	fill: rgba(110,110,110,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_43 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_44 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_44 {
+	position: absolute;
+	overflow: visible;
+	width: 1598px;
+	height: 900px;
+	left: 161px;
+	top: 91px;
+}
+#Generated_Meals_For_You {
+	left: 653px;
+	top: 116px;
+	position: absolute;
+	overflow: visible;
+	width: 615px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 81px;
+	color: rgba(0,0,0,1);
+}
+#Group_24 {
+	position: absolute;
+	width: 1288px;
+	height: 222px;
+	left: 285px;
+	top: 230px;
+	overflow: visible;
+}
+#Polygon_1 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Polygon_1 {
+	overflow: visible;
+	position: absolute;
+	width: 56px;
+	height: 59px;
+	left: 1000px;
+	top: 60px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_23 {
+	position: absolute;
+	width: 1288px;
+	height: 222px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_22 {
+	position: absolute;
+	width: 1288px;
+	height: 222px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Meal_1 {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(0,0,0,1);
+}
+#ID1099 {
+	left: 396px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(0,0,0,1);
+}
+#Items_included_in_meal {
+	left: 0px;
+	top: 80px;
+	position: absolute;
+	overflow: visible;
+	width: 273px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_37 {
+	fill: rgba(255,0,0,1);
+}
+.Rectangle_37 {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 32px;
+	left: 0px;
+	top: 139px;
+}
+#Rectangle_38 {
+	fill: rgba(0,34,255,1);
+}
+.Rectangle_38 {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 32px;
+	left: 154px;
+	top: 139px;
+}
+#Rectangle_39 {
+	fill: rgba(255,255,0,1);
+}
+.Rectangle_39 {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 32px;
+	left: 368px;
+	top: 139px;
+}
+#Rectangle_40 {
+	fill: rgba(41,255,0,1);
+}
+.Rectangle_40 {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 32px;
+	left: 470px;
+	top: 139px;
+}
+#ID20g_protein {
+	left: 27px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#ID50g_carb {
+	left: 208px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#ID450_calories {
+	left: 652px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#ID15g_fat {
+	left: 398px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#Group_20 {
+	position: absolute;
+	width: 194px;
+	height: 78px;
+	left: 1094px;
+	top: 51px;
+	overflow: visible;
+}
+#Rectangle_45 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_45 {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 78px;
+	left: 0px;
+	top: 0px;
+}
+#Edit {
+	left: 65px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#Group_21 {
+	position: absolute;
+	width: 194px;
+	height: 78px;
+	left: 1094px;
+	top: 144px;
+	overflow: visible;
+}
+#Rectangle_45_bo {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_45_bo {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 78px;
+	left: 0px;
+	top: 0px;
+}
+#Add_to_cart {
+	left: 27px;
+	top: 19px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Polygon_2 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Polygon_2 {
+	overflow: visible;
+	position: absolute;
+	width: 56px;
+	height: 59px;
+	transform: translate(-285px, -230px) matrix(1,0,0,1,1285,390) rotate(180deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#ID0 {
+	left: 1014px;
+	top: 104px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 71px;
+	color: rgba(0,0,0,1);
+}
+#Group_25 {
+	position: absolute;
+	width: 1288px;
+	height: 222px;
+	left: 285px;
+	top: 485px;
+	overflow: visible;
+}
+#Polygon_1_bt {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Polygon_1_bt {
+	overflow: visible;
+	position: absolute;
+	width: 56px;
+	height: 59px;
+	left: 1000px;
+	top: 60px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_23_bu {
+	position: absolute;
+	width: 1288px;
+	height: 222px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_22_bv {
+	position: absolute;
+	width: 1288px;
+	height: 222px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Meal_2 {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(0,0,0,1);
+}
+#ID1099_bx {
+	left: 396px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(0,0,0,1);
+}
+#Items_included_in_meal_by {
+	left: 0px;
+	top: 80px;
+	position: absolute;
+	overflow: visible;
+	width: 273px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_37_bz {
+	fill: rgba(255,0,0,1);
+}
+.Rectangle_37_bz {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 32px;
+	left: 0px;
+	top: 139px;
+}
+#Rectangle_38_b {
+	fill: rgba(0,34,255,1);
+}
+.Rectangle_38_b {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 32px;
+	left: 154px;
+	top: 139px;
+}
+#Rectangle_39_b {
+	fill: rgba(255,255,0,1);
+}
+.Rectangle_39_b {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 32px;
+	left: 368px;
+	top: 139px;
+}
+#Rectangle_40_b {
+	fill: rgba(41,255,0,1);
+}
+.Rectangle_40_b {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 32px;
+	left: 470px;
+	top: 139px;
+}
+#ID20g_protein_b {
+	left: 27px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#ID50g_carb_b {
+	left: 208px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#ID450_calories_b {
+	left: 652px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#ID15g_fat_b {
+	left: 398px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#Group_20_b {
+	position: absolute;
+	width: 194px;
+	height: 78px;
+	left: 1094px;
+	top: 51px;
+	overflow: visible;
+}
+#Rectangle_45_b {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_45_b {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 78px;
+	left: 0px;
+	top: 0px;
+}
+#Edit_b {
+	left: 65px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#Group_21_ca {
+	position: absolute;
+	width: 194px;
+	height: 78px;
+	left: 1094px;
+	top: 144px;
+	overflow: visible;
+}
+#Rectangle_45_cb {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_45_cb {
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	height: 78px;
+	left: 0px;
+	top: 0px;
+}
+#Add_to_cart_cc {
+	left: 27px;
+	top: 19px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Polygon_2_cd {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Polygon_2_cd {
+	overflow: visible;
+	position: absolute;
+	width: 56px;
+	height: 59px;
+	transform: translate(-285px, -230px) matrix(1,0,0,1,1285,390) rotate(180deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#ID0_ce {
+	left: 1014px;
+	top: 104px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 71px;
+	color: rgba(0,0,0,1);
+}
+#Line_17 {
+	opacity: 0.4;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_17 {
+	overflow: visible;
+	position: absolute;
+	width: 1396px;
+	height: 1px;
+	left: 251.5px;
+	top: 475.5px;
+	transform: matrix(1,0,0,1,0,0);
+}

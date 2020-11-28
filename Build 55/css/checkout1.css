@@ -1,0 +1,293 @@
+.mediaViewInfo {
+	--web-view-name: checkout1;
+	--web-view-id: checkout1;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: checkout1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#checkout1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: checkout1;
+	--web-view-id: checkout1;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+#Address {
+	left: 127px;
+	top: 47px;
+	position: absolute;
+	overflow: visible;
+	width: 302px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 85px;
+	color: rgba(112,112,112,1);
+}
+#Special_Instructions {
+	left: 127px;
+	top: 272px;
+	position: absolute;
+	overflow: visible;
+	width: 774px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 91px;
+	color: rgba(112,112,112,1);
+}
+#Component_47__1 {
+	position: absolute;
+	width: 472px;
+	height: 143px;
+	left: 724px;
+	top: 875px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 472px;
+	height: 143px;
+	left: 0px;
+	top: 0px;
+}
+#Order_Now {
+	left: 14px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 446px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 91px;
+	color: rgba(112,112,112,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 1080px;
+	left: 1357.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Image_1 {
+	position: absolute;
+	width: 1065px;
+	height: 298px;
+	left: 118px;
+	top: 583px;
+	overflow: visible;
+}
+#Component_29__1 {
+	position: absolute;
+	width: 1057px;
+	height: 104px;
+	left: 126px;
+	top: 436px;
+	overflow: visible;
+}
+#Rectangle_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 1057px;
+	height: 104px;
+	left: 0px;
+	top: 0px;
+}
+#Bonus_marks_are_always_appreci {
+	opacity: 0;
+	left: 17px;
+	top: 28px;
+	position: absolute;
+	overflow: visible;
+	width: 967px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 53px;
+	color: rgba(112,112,112,1);
+}
+#Component_28__2 {
+	position: absolute;
+	width: 1057px;
+	height: 112px;
+	left: 126px;
+	top: 160px;
+	overflow: visible;
+}
+#Rectangle_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1057px;
+	height: 112px;
+	left: 0px;
+	top: 0px;
+}
+#ID123_test_drive {
+	opacity: 0;
+	left: 17px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 453px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 68px;
+	color: rgba(112,112,112,1);
+}
+#Cart {
+	left: 1400px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 66px;
+	color: rgba(0,0,0,1);
+}
+#ID1170 {
+	left: 1555px;
+	top: 851px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(0,0,0,1);
+}
+#Meal_Tax_Total {
+	left: 1400px;
+	top: 692px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(0,0,0,1);
+}
+#ID1050 {
+	left: 1555px;
+	top: 708px;
+	position: absolute;
+	overflow: visible;
+	width: 151px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 46px;
+	color: rgba(0,0,0,1);
+}
+#ID120 {
+	left: 1555px;
+	top: 776px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 46px;
+	color: rgba(0,0,0,1);
+}
+#ID1x_-_Veg_Chili_Additions_Ing {
+	left: 1400px;
+	top: 130px;
+	position: absolute;
+	overflow: visible;
+	width: 278px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	color: rgba(0,0,0,1);
+}

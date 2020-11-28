@@ -1,0 +1,395 @@
+.mediaViewInfo {
+	--web-view-name: user;
+	--web-view-id: user;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+:root {
+	--web-view-ids: user;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#user {
+	position: absolute;
+	width: 1920px;
+	height: 1079px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: user;
+	--web-view-id: user;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_26 {
+	opacity: 0.8;
+	fill: rgba(99,99,99,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_26 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1079px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_27 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_27 {
+	position: absolute;
+	overflow: visible;
+	width: 1425px;
+	height: 885px;
+	left: 248px;
+	top: 98px;
+}
+#Group_2 {
+	position: absolute;
+	width: 367px;
+	height: 309px;
+	left: 777px;
+	top: 128px;
+	overflow: visible;
+}
+#Ellipse_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 367px;
+	height: 309px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_material-person {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-person {
+	overflow: visible;
+	position: absolute;
+	width: 245.333px;
+	height: 224px;
+	left: 60.333px;
+	top: 43px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Users_Name {
+	left: 707px;
+	top: 472px;
+	position: absolute;
+	overflow: visible;
+	width: 507px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 136px;
+	color: rgba(0,0,0,1);
+}
+#Component_42__1 {
+	position: absolute;
+	width: 109px;
+	height: 51px;
+	left: 1499px;
+	top: 128px;
+	overflow: visible;
+}
+#Logout {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: login.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50.97914123535156px;
+	color: rgba(0,136,255,1);
+}
+#JohnDoegmailcom {
+	left: 489px;
+	top: 648px;
+	position: absolute;
+	overflow: visible;
+	width: 338px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#ID123_Test_Street {
+	left: 1152px;
+	top: 648px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Group_3 {
+	position: absolute;
+	width: 1064.5px;
+	height: 102px;
+	left: 489px;
+	top: 803px;
+	overflow: visible;
+}
+#Average_Macros_Per_Meal {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Protein {
+	left: 653px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Carbs {
+	left: 839px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Calories {
+	left: 455px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#fat {
+	left: 1003px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#Line_11 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_11 {
+	overflow: visible;
+	position: absolute;
+	width: 129px;
+	height: 1px;
+	left: 452.5px;
+	top: 51.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_12 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_12 {
+	overflow: visible;
+	position: absolute;
+	width: 115px;
+	height: 1px;
+	left: 652.5px;
+	top: 51.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_13 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_13 {
+	overflow: visible;
+	position: absolute;
+	width: 92px;
+	height: 1px;
+	left: 839.5px;
+	top: 51.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_14 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_14 {
+	overflow: visible;
+	position: absolute;
+	width: 56px;
+	height: 1px;
+	left: 1008.5px;
+	top: 51.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID500 {
+	left: 488px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#ID25g {
+	left: 683px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#ID52g {
+	left: 859px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
+#ID15g {
+	left: 1008px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(0,0,0,1);
+}
